@@ -1,0 +1,48 @@
+/* Utility */
+.mt-20 {
+  margin-top: 20px;
+}
+.mr_20{
+  margin-right: 20px;
+}
+.pr_1{
+  padding-right: 1rem;
+}
+.pl_1{
+  padding-left: 1rem;
+}
+/* /Utility */
+body {
+  font-style: sans-serif;
+}
+header {
+  height: 600px;
+  position: relative;
+  background-image: url(../img/heroimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  height: 80px;
+  line-height: 80px;
+  background-color: white;
+}
+.header-logo {
+  max-width: 120px;
+}
+#navbar a {
+  text-decoration: none;
+  padding: 0 10px;
+  text-transform: uppercase;
+  color: black;
+}
+.header-menu {
+  text-align: right;
+}
+.header-lang li{
+  list-style: none;
+  display: inline;
+}
+.header-lang li:not(:last-child) a{
+  border-right: 1px solid black;
+}
