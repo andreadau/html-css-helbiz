@@ -17,7 +17,7 @@ body {
 }
 /* Header */
 header {
-  height: 600px;
+  height: 650px;
   position: relative;
   background-image: url(../img/heroimage.jpg);
   background-repeat: no-repeat;
@@ -89,9 +89,56 @@ nav {
   text-decoration: none;
   color: blue;
 }
-
 .col-xl-6 img:nth-child(1) {
   max-width: 50%;
   margin-bottom: 20px;
   margin-top: 60px;
+}
+/* how  */
+.fluid-main-text {
+  text-align: center;
+}
+.img-fluid {
+  height: 500px;
+  background-image: url(../img/sfondou.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 7%;
+  min-width:1170px;
+}
+.fluid-main-text img{
+  width: 300px;
+  transform: translateY(10%);
+  margin-bottom: 100px;
+}
+.fluid-main-text h4{
+  margin-top: 550px;
+}
+.fluid-main-text h1{
+  margin-top: 550px;
+}
+
+.smart-img {
+  position: relative;
+}
+.img-smart {
+  width: 100%;
+}
+.text-img-smart {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  color: white;
+  line-height: 70px;
+}
+.text-img-smart a{
+  text-decoration: none;
+  color: white;
+}
+.text-img-smart h1{
+  font-size: 2em;
+}
+.text-img-smart h3{
+  font-size: 1em;
 }
