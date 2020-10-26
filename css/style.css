@@ -2,19 +2,20 @@
 .mt-20 {
   margin-top: 20px;
 }
-.mr_20{
+.mr-20{
   margin-right: 20px;
 }
-.pr_1{
+.pr-1{
   padding-right: 1rem;
 }
-.pl_1{
+.pl-1{
   padding-left: 1rem;
 }
 /* /Utility */
 body {
   font-style: sans-serif;
 }
+/* Header */
 header {
   height: 600px;
   position: relative;
@@ -22,6 +23,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* navbar */
 nav {
   height: 80px;
   line-height: 80px;
@@ -32,7 +34,7 @@ nav {
 }
 #navbar a {
   text-decoration: none;
-  padding: 0 10px;
+  padding: 0 7px;
   text-transform: uppercase;
   color: black;
 }
@@ -45,4 +47,51 @@ nav {
 }
 .header-lang li:not(:last-child) a{
   border-right: 1px solid black;
+}
+/* /navbar */
+/* Hero img and text */
+.hero-text{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.hero-text h1{
+  font-size: 3rem;
+}
+.hero-text p{
+  margin: 20px 0 30px 0;
+}
+.hero-text img{
+  height: 70px;
+}
+/* /Hero img and text */
+/* /Header / */
+
+/* Main / */
+.tmodel{
+  padding: 2rem;
+}
+.tmodel .card{
+  text-align: center;
+  background-color: #fafafa;
+}
+.tmodel .card img{
+  width: 100%;
+}
+.tmodel .card p{
+  margin: 20px;
+  font-size: 1.5em;
+}
+.tmodel .card a{
+  text-decoration: none;
+  color: blue;
+}
+
+.col-xl-6 img:nth-child(1) {
+  max-width: 50%;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
